@@ -31,3 +31,14 @@ const App = () => {
 ```
 ReactDOM.render(<App />, document.querySelector("#root"));
 ```
+ ## JSX vs HTML
+ ```<div style={{ backgroundColor: 'red' }}></div>```
+ ```<label className="label">Enter name</label>```
+ ```
+ const buttonText = "submit"
+ in jsx... {buttonText}
+ ```
+ 
+ Good practice to keep console open and look for any error messages
+ 
+ 
