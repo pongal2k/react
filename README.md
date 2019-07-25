@@ -41,4 +41,29 @@ ReactDOM.render(<App />, document.querySelector("#root"));
  
  Good practice to keep console open and look for any error messages
  
+ ### Tenants of Component
+ * Component nesting
+ * Component Reusability
+ * Component Configuration
+ 
+* Semantic UI for styling
+* Faker js to generate fake data
+ 
+### Props
+System for passing data from a parent component to a child component. Goal is to customize or configure a child component.
+
+If a component/text/jsx is sent as a children of another component, use props.children in the child component.
+
+### Class based component
+Functional components are for simple content, Class based for everythign else
+
+Class based components are:
+* Easier to organize code
+* Can use state, easier to handle input
+* Understands life cycle events, easier to do things when the app first starts
+
+
+
+
+ 
  
